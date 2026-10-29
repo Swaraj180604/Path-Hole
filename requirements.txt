@@ -1,0 +1,14 @@
+streamlit>=1.50
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+plotly>=5.20
+pillow>=10.0
+
+# --- Optional: camera detection (YOLOv8) -------------------------------
+# Uncomment the next three lines to enable the Camera tab.
+# Needs ~1-2 GB of disk; it may not fit on Streamlit Community Cloud's free tier.
+# --extra-index-url https://download.pytorch.org/whl/cpu
+# torch
+# ultralytics>=8.3
